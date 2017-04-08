@@ -1,0 +1,307 @@
+@media screen and (min-width:1200px){
+	body{
+		background:url(imagens/fundoo.jpg);
+	}
+	#CxPrincipal{
+		width:1200px;
+		height:1200px;
+		border:solid 1px blue;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#menu{
+		width:1000px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	header{
+		
+		background:url("imagens/fundo.png");
+		background-size:cover;
+		padding-top:80px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		
+	}
+	
+
+	#lst{
+		margin:0px;
+		font-size:20px;
+		font-family:sans-serif;
+		list-style:none;
+		background-color:black;
+		color:white;
+		
+	}
+	#lst li {
+		width:150px;
+		display:inline;
+		padding-left:45px;
+		padding-right:45px;
+		
+	}
+	#lst li:hover{
+		background-color:green;
+	
+	}
+
+
+	#conteudo{
+		background: linear-gradient(black, white);
+		padding-top:15px;
+		width:1200px;
+		height:900px;
+		float:right;
+		background-color:pink;
+		
+	}
+	.conteudo{
+		margin-top:40px;
+		text-align:center;
+		font-size:20px;
+		font-family:sans-serif;
+	
+	
+	}
+	.imagem1{
+		width:450px;
+		height:350px;
+		margin-left:10px;
+		border-radius:50%;
+		transition:transform 3s;
+		
+	}
+	.imagem1:hover{
+		transform:rotate3D(1,0,0,360deg);
+		
+	
+	}
+	.imagem2{
+		width:450px;
+		height:350px;
+		margin-left:650px;
+		margin-top:30px;
+		margin-bottom:30px;
+		border-radius:50%;
+	}
+	footer{
+		width:1200px;
+		height:180px;
+		background-color:black;
+		clear:both;
+	}
+	.seta{
+		
+		display:scroll;
+		position:relative;
+		bottom:2px;
+		right:2px;
+		
+}
+
+	
+}
+@media screen and (min-width:380px) and (max-width:770px){
+	body{
+		background:url(imagens/fundoo.jpg);
+	}
+	#CxPrincipal{
+		width:400px;
+		height:1130px;
+		border:solid 1px blue;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#menu{
+		width:400px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	header{
+		background:url("imagens/fundo.png");
+		background-size:cover;
+		padding-top:50px;
+		margin-left:auto;
+		margin-right:auto;
+		
+	}
+	
+
+	#lst{
+		margin:0px;
+		font-size:20px;
+		list-style:none;
+		background-color:black;
+		color:white;
+		
+		
+	}
+	#lst li {
+		width:100px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		
+		
+	}
+	#lst li:hover{
+		background-color:green;
+	
+	}
+
+
+	#conteudo{
+		width:400px;
+		height:835px;
+		background: linear-gradient(black, white);
+		padding-top:15px;
+		
+		float:right;
+		background-color:pink;
+		
+	}
+	.conteudo{
+		margin-top:20px;
+		text-align:center;
+		font-size:20px;
+	
+	
+	}
+	.imagem1{
+		width:300px;
+		height:250px;
+		border-radius:50%;
+		margin-left:50px;
+		margin-right:auto;
+		
+	}
+	.imagem2{
+		width:300px;
+		height:250px;
+		margin-left:50px;
+		margin-right:auto;
+		margin-top:30px;
+		margin-bottom:30px;
+		border-radius:50%;
+	}
+	footer{
+		width:400px;
+		height:113px;
+		background-color:black;
+		clear:both;
+	}
+	.seta{
+		
+		display:scroll;
+		position:relative;
+		bottom:2px;
+		right:2px;
+		
+}
+
+}
+
+@media screen and (min-width:770px) and (max-width:1199px){
+	body{
+		background:url(imagens/fundoo.jpg);
+	}
+		#CxPrincipal{
+		width:800px;
+		height:1139px;
+		border:solid 1px blue;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#menu{
+		width:800px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	header{
+		
+		background:url("imagens/fundo.png");
+		background-size:cover;
+		padding-top:50px;
+		margin-left:auto;
+		margin-right:auto;
+		
+		
+	}
+	
+
+	#lst{
+		margin:0px;
+		font-size:20px;
+		list-style:none;
+		background-color:black;
+		color:white;
+		
+	}
+	#lst li {
+		width:150px;
+		display:inline;
+		padding-left:40px;
+		padding-right:40px;
+		
+	}
+	#lst li:hover{
+		background-color:green;
+	
+	}
+
+
+	#conteudo{
+		background: linear-gradient(black, white);
+		padding-top:15px;
+		width:800px;
+		height:900px;
+		float:right;
+		
+		
+	}
+	.conteudo{
+		margin-top:20px;
+		text-align:center;
+		font-size:25px;
+		font-family:sans-serif;
+	
+	
+	}
+	.imagem1{
+		width:300px;
+		height:250px;
+		margin-left:10px;
+		border-radius:50%;
+		
+	}
+	.imagem2{
+		width:300px;
+		height:250px;
+		margin-left:430px;
+		margin-top:30px;
+		margin-bottom:30px;
+		border-radius:50%;
+	}
+	footer{
+		width:800px;
+		height:150px;
+		background-color:black;
+		clear:both;
+	}
+		.seta{
+		
+		display:scroll;
+		position:relative;
+		bottom:2px;
+		right:2px;
+		
+}
+
+
+
+}
